@@ -26,6 +26,53 @@ body {
     animation: lett-tracado 10s ease-in-out forwards 1s infinite;
 }
 
+h1, h2 {
+    font-family: 'Pacifico', cursive;
+    color: #a01010;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #292929;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.container-cards {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+#coqueiro {
+    margin: 20px 0;
+}
+
+#filtro {
+    margin: 20px 0;
+}
+
+.titulo2 {
+    margin-top: 20px;
+}
+
 @keyframes lett-preenchimento {
     to {
         fill: #e85858;
