@@ -75,8 +75,19 @@ p {
 
 .lett-footer {
     width: 60%;
-    margin: auto;
-    display: block;
+    left: 20%;
+    fill: #000050;
+    opacity: 0.8;
+    position: absolute;
+    margin-top: 20%;
+}
+
+.container-footer {
+    position: relative;
+}
+
+#footer-info {
+    text-align: center;
 }
 
 @keyframes lett-preenchimento {
